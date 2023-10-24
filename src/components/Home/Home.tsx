@@ -52,7 +52,7 @@ const PlayIcon = createIcon({
 
 const Home: React.FC<Props> = ({ }) => {
     return(
-        <Container maxW={'5xl'} h={"auto"} display={'flex'} flexDirection={"column"} justifyContent={"space-evenly"} >
+        <Container maxW={'6xl'} h={"auto"} display={'flex'} flexDirection={"column"} justifyContent={"space-evenly"} >
       <Stack
         align={'center'}
         spacing={{ base: 8, md: 10 }}
@@ -101,6 +101,7 @@ const Home: React.FC<Props> = ({ }) => {
             <Button
               rounded={'full'}
               size={'lg'}
+              bg={"gray.300"}
               fontWeight={'normal'}
               px={6}
               leftIcon={<MdRestaurantMenu/>}>
@@ -116,8 +117,8 @@ const Home: React.FC<Props> = ({ }) => {
           w={'full'}>
           <Blob
 
-            w={'150%'}
-            h={'150%'}
+            w={'100%'}
+            h={'100%'}
             position={'absolute'}
             top={'-20%'}
             left={0}

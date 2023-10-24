@@ -106,7 +106,7 @@
             </HStack>
           ))}
         </VStack>
-        <Button colorScheme='red' variant="solid" size="md" rounded="md" w="100%">
+        <Button bg={"#141E46"} color={"white"} variant="ghost" size="md" rounded="md" w="100%">
           Choose Plan
         </Button>
       </Box>

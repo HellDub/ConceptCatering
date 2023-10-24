@@ -9,7 +9,7 @@
     Avatar,
     useColorModeValue
   } from '@chakra-ui/react';
-
+  import Plane from '../../assets/Airplane_silhouette.svg';
 
   const reviewData = [
     {
@@ -46,7 +46,7 @@
 
   const Reviews = () => {
     return (
-      <Container backgroundColor={'white'} maxW="5xl" p={{ base: 5, md: 10 }}>
+      <Container  backgroundImage={Plane}  backgroundPosition={'top'} backgroundRepeat={"no-repeat"} backgroundSize={'revert'} backgroundColor={'white'} maxW="5xl" p={{ base: 5, md: 10 }}>
         <Box mb={8}>
           <Heading as="h3" size="lg" fontWeight="bold" textAlign="left" mb={3}>
             Audience rating summary

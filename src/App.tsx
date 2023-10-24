@@ -12,8 +12,7 @@ function App() {
 
   return (
     <>
-    <Container maxW={"100%"} maxH={"100%"}
-    backgroundImage={Plane} backgroundPosition={'center'} backgroundRepeat={"no-repeat"} backgroundSize={"contain"}>
+
 
     <BrowserRouter >
     <Navbar/>
@@ -25,7 +24,7 @@ function App() {
     <Footer/>
     </BrowserRouter>
 
-    </Container>
+
     </>
   )
 }

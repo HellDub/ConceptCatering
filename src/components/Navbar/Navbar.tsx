@@ -38,6 +38,7 @@ import Logo from "../../assets/RAM-logo.svg"
         as="a"
         px={3}
         py={1}
+
         href={path}
         rounded={'md'}
         _hover={{
@@ -55,7 +56,7 @@ const Navbar = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
   return (
     <>
-    <Box w={"100%"} textColor={"#fff"} bgColor={"red.600"} px={6} rounded={10}>
+    <Box m={2} textColor={"#EA906C"} bgColor={"#141E46"} px={4} rounded={10}>
       <Flex h={"60px"}  alignItems={'center'} justifyContent={'space-between'}>
         <IconButton
           size={'md'}
@@ -68,12 +69,13 @@ const Navbar = () => {
           <Box as="a">
             <Image src={Logo} w={"80px"} />
           </Box>
-          <HStack as={'nav'}  spacing={5} display={{ base: 'none', md: 'flex' }}>
+
+        </HStack>
+        <HStack as={'nav'}  spacing={5} display={{ base: 'none', md: 'flex' }}>
             {Links.map((link) => (
               <NavLink path={link.path} key={link.name}>{link.name}</NavLink>
             ))}
           </HStack>
-        </HStack>
         <Flex alignItems={'center'}>
           <Menu>
             <MenuButton
