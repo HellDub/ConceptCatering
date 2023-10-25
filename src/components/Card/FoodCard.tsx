@@ -9,7 +9,7 @@ interface FoodCardProps {
 
 const FoodCard = ({ id,image, name, price }: FoodCardProps) => (
   <Stack rounded={10} alignItems={"center"}   boxShadow={'2xl'}  bg={useColorModeValue('gray.100', 'gray.800')} key={id} p={10}>
-    <Box  boxSize="200px" > <Image  boxSize="100%" objectFit="cover"  src={image} alt={"someAlt"} /></Box>
+    <Box boxSize="200px" > <Image  rounded={10}  boxSize="100%" objectFit="cover"  src={image} alt={"someAlt"} /></Box>
 
     <Text color="teal.600" fontWeight={500} textTransform="uppercase">
       Best Choice
