@@ -1,0 +1,85 @@
+﻿{ "food" :[
+    {
+        "id": 1,
+        "name": "Pizza",
+        "price": 10.99,
+        "image": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 2,
+        "name": "Sushi",
+        "price": 15.5,
+        "image": "https://images.pexels.com/photos/5900773/pexels-photo-5900773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 3,
+        "name": "Hamburger",
+        "price": 8.5,
+        "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 4,
+        "name": "Curry",
+        "price": 12.75,
+        "image": "https://images.pexels.com/photos/1618955/pexels-photo-1618955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 5,
+        "name": "Taco",
+        "price": 6.99,
+        "image": "https://images.pexels.com/photos/2338015/pexels-photo-2338015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 6,
+        "name": "Pasta",
+        "price": 9.75,
+        "image": "https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 7,
+        "name": "Schnitzel",
+        "price": 11.25,
+        "image": "https://images.pexels.com/photos/1352270/pexels-photo-1352270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 8,
+        "name": "Pad Thai",
+        "price": 10.25,
+        "image": "https://images.pexels.com/photos/12481161/pexels-photo-12481161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 9,
+        "name": "Croissant",
+        "price": 3.5,
+        "image": "https://images.pexels.com/photos/3892469/pexels-photo-3892469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 10,
+        "name": "Dim Sum",
+        "price": 7.25,
+        "image": "https://images.pexels.com/photos/3911231/pexels-photo-3911231.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 11,
+        "name": "Samosa",
+        "price": 5.25,
+        "image": "https://images.pexels.com/photos/12843067/pexels-photo-12843067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 12,
+        "name": "Gyros",
+        "price": 8.99,
+        "image": "https://images.pexels.com/photos/6941000/pexels-photo-6941000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 13,
+        "name": "Ceviche",
+        "price": 13.75,
+        "image": "https://images.pexels.com/photos/1292984/pexels-photo-1292984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+],
+    "userchoices": [
+
+
+    ]
+}
