@@ -1,7 +1,9 @@
-﻿import { Grid, Flex,Text } from '@chakra-ui/react'
+﻿import { Grid, Flex,Text,Spinner } from '@chakra-ui/react'
 import Card from '../Card/FoodCard'
 import axios from 'axios';
+
 import { useQuery } from '@tanstack/react-query';
+
 
 
 
@@ -20,20 +22,28 @@ const fetchData = async () => {
       return data;
 
     } catch (error) {
-      throw new Error('Failed to fetch data from the API');
+      throw new Error('Check your APIS ');
     }
   };
 
-    const { isLoading, isError, data, error } = useQuery({ queryKey: ['data'], queryFn: fetchData })
-  if (isLoading) {
-    return <div>Loading...</div>;
+    const { isLoading, isError, data, error } = useQuery({ queryKey: ['data'], queryFn: fetchData , retry:2,})
+
+
+    if (isLoading) {
+    return <Spinner
+    thickness='4px'
+    speed='0.65s'
+    emptyColor='gray.200'
+    color='blue.500'
+    size='xl'
+  /> ;
   }
 
   if (isError) {
-    return <div>Error: {error.message}</div>;
+    return <Text fontWeight={600} fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>Error: {error.message}</Text>;
   }
 
-
+else{
     return (
         <Flex
         direction="column"
@@ -42,7 +52,7 @@ const fetchData = async () => {
         m="0 auto"
         minH="100vh"
       >
-    <Text fontWeight={600} fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>  Here are our choices</Text>
+    <Text fontWeight={500} fontSize={{ base: 'xl', sm: '2xl', lg: '4xl' }}>  Here are our choices</Text>
     <br />
         <Grid
           w="full"
@@ -55,6 +65,6 @@ const fetchData = async () => {
         </Grid>
       </Flex>
     )
-}
+}}
 
 export default Food
