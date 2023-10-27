@@ -26,7 +26,7 @@ const fetchData = async () => {
     }
   };
 
-    const { isLoading, isError, data, error } = useQuery({ queryKey: ['data'], queryFn: fetchData , retry:2,})
+    const { isLoading, isError, data, error } = useQuery({ queryKey: ['data'], queryFn: fetchData ,})
 
 
     if (isLoading) {
